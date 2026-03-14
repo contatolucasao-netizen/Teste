@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BellaModa | Moda Feminina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar container">
+        <h1 class="logo">BellaModa</h1>
+        <ul class="menu">
+          <li><a href="#catalogo">Catálogo</a></li>
+          <li><a href="#destaques">Destaques</a></li>
+          <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content container">
+        <p class="badge">Nova coleção primavera/verão</p>
+        <h2>Elegância e conforto para todos os momentos</h2>
+        <p>
+          Descubra peças selecionadas para valorizar seu estilo com qualidade,
+          caimento impecável e entrega para todo o Brasil.
+        </p>
+        <a href="#catalogo" class="btn">Ver produtos</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="destaques" class="benefits container">
+        <article>
+          <h3>Frete grátis</h3>
+          <p>Acima de R$ 249 para todo o Brasil.</p>
+        </article>
+        <article>
+          <h3>Troca facilitada</h3>
+          <p>Primeira troca em até 30 dias sem custo.</p>
+        </article>
+        <article>
+          <h3>Pagamento seguro</h3>
+          <p>Pix, cartão em até 6x e boleto.</p>
+        </article>
+      </section>
+
+      <section id="catalogo" class="catalog container">
+        <div class="section-title">
+          <h2>Mais vendidas</h2>
+          <p>Seleção de roupas femininas que unem tendência e versatilidade.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80"
+              alt="Mulher vestindo blazer rosa"
+            />
+            <div class="product-info">
+              <h3>Blazer Alfaiataria Rosé</h3>
+              <p class="price">R$ 299,90</p>
+              <button class="buy-btn">Adicionar ao carrinho</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80"
+              alt="Mulher usando vestido floral"
+            />
+            <div class="product-info">
+              <h3>Vestido Floral Midi</h3>
+              <p class="price">R$ 219,90</p>
+              <button class="buy-btn">Adicionar ao carrinho</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80"
+              alt="Mulher com suéter bege"
+            />
+            <div class="product-info">
+              <h3>Suéter Tricot Premium</h3>
+              <p class="price">R$ 179,90</p>
+              <button class="buy-btn">Adicionar ao carrinho</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="newsletter" class="newsletter">
+        <div class="container newsletter-content">
+          <h2>Ganhe 10% OFF na primeira compra</h2>
+          <p>Cadastre seu e-mail e receba novidades, tendências e promoções exclusivas.</p>
+          <form id="newsletter-form">
+            <input type="email" id="email" placeholder="Digite seu melhor e-mail" required />
+            <button type="submit">Quero desconto</button>
+          </form>
+          <p id="form-message" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 BellaModa - Moda feminina feita para você.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
